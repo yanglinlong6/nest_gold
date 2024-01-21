@@ -14,9 +14,11 @@ export class UserService {
     private readonly userRepository: Repository<Users>,
   ) {
     this.minioClient = new Minio.Client({
+      // endPoint: 'minio.linux008.com',
       endPoint: '149.129.78.23',
       port: 9000,
       useSSL: false,
+      // useSSL: true,
       accessKey: 'gold',
       secretKey: 'r4285613u8t#2!',
     });

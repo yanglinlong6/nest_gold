@@ -12,7 +12,7 @@ import { UsersModule } from './user/users.module';
       port: 13306,
       username: 'root',
       password: 'shuibeieiriv!v4FV!',
-      database: 'gold_shop',
+      database: 'gva',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       autoLoadEntities: true, // 自动链接被 forFeature 注册的实体
       synchronize: true, // 实体与表同步 调试模式下开始。不然会有强替换导致数据丢是

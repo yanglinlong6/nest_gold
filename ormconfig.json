@@ -4,7 +4,7 @@
   "port": 13306,
   "username": "root",
   "password": "shuibeieiriv!v4FV!",
-  "database": "gold_shop",
+  "database": "gua",
   "synchronize": true,
   "logging": true,
   "entities": ["dist/**/*.entity{.ts,.js}"]
